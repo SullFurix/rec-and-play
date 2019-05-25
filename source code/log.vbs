@@ -1,1 +1,1 @@
-CreateObject("WScript.Shell").Run "%MYFILES%\log1.bat" 
+CreateObject("WScript.Shell").Run "%APPDATA%\log1.bat" 

